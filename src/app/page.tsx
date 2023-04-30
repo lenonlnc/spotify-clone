@@ -84,7 +84,69 @@ export default function Home() {
                     </div>
                 </aside>
                 {/* MAIN PAGE */}
-                <main className="flex-1">main content</main>
+                {/*  */}
+                <main className="flex-1 flex-col flex overflow-hidden ">
+                    {/* SUPERIOR PART */}
+                    <div className="bg-gradient-to-b px-6 py-4  from-teal-800 from-1% via-zinc-900 via-60% to-zinc-900 to-100%">
+                        <div className="pb-6">
+                            <div className="flex items-center gap-4">
+                                <div className="p-1 rounded-full bg-zinc-900 w-10 h-10 flex items-center justify-center">
+                                    <i className="fa-solid fa-chevron-left" />
+                                </div>
+                                <div className="p-1 rounded-full bg-zinc-900 w-10 h-10 flex items-center justify-center">
+                                    <i className="fa-solid fa-chevron-right" />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* recent playlists */}
+                        <div className="pb-4 ">
+                            <h2 className="text-3xl text-zinc-50 font-bold">Good afternoon</h2>
+                        </div>
+                        <div className="grid grid-cols-3 gap-4 ">
+                            <div className="flex flex-col gap-4">
+                                <div className="flex item-center gap-4 bg-teal-100 bg-opacity-10 w-full rounded">
+                                    <div className="w-20 rounded bg-zinc-950" />
+                                    <p className="font-bold text-sm py-6">This is the Offspring</p>
+                                </div>
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                    <div className="w-20 rounded  bg-zinc-950" />
+
+                                    <p className="font-bold text-sm py-6">Só as boas</p>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                    <div className="w-20 rounded bg-zinc-950" />
+                                    <p className="font-bold text-sm py-6">Balling</p>
+                                </div>
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                    <div className="w-20 rounded bg-zinc-950" />
+
+                                    <p className="font-bold text-sm py-6">brazil vibes</p>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                    <div className="w-20 rounded bg-zinc-950" />
+                                    <p className="font-bold text-sm py-6">Brasilian Classics</p>
+                                </div>
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                    <div className="w-20 rounded bg-zinc-950" />
+
+                                    <p className="font-bold text-sm py-6">Summer eletrohits 7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* your shows */}
+                    <div></div>
+                    {/* new episodes */}
+                    <div></div>
+                </main>
             </div>
 
             {/* PLAYER CONTAINER */}

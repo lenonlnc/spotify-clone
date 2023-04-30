@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <head>
                 <script src="https://kit.fontawesome.com/0212a5fcb5.js"></script>
             </head>
-            <body className="bg-zinc-800 text-zinc-50">{children}</body>
+            <body className="bg-zinc-900 text-zinc-50">{children}</body>
         </html>
     )
 }
