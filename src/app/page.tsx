@@ -103,13 +103,15 @@ export default function Home() {
                         <div className="pb-4 ">
                             <h2 className="text-3xl text-zinc-50 font-bold">Good afternoon</h2>
                         </div>
-                        <div className="grid grid-cols-3 gap-4 ">
+                        <div className="grid grid-cols-3 gap-4">
+                            {/* PLAYLISTS CARDS */}
                             <div className="flex flex-col gap-4">
-                                <div className="flex item-center gap-4 bg-teal-100 bg-opacity-10 w-full rounded">
+                                <div className="flex cursor-pointer item-center  gap-4 bg-teal-100 bg-opacity-10 w-full hover:bg-opacity-20 transition duration-500 ease-out rounded">
                                     <div className="w-20 rounded bg-zinc-950" />
                                     <p className="font-bold text-sm py-6">This is the Offspring</p>
                                 </div>
-                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 hover:bg-opacity-20 cursor-pointer  transition duration-500 ease-out w-full rounded">
                                     <div className="w-20 rounded  bg-zinc-950" />
 
                                     <p className="font-bold text-sm py-6">Só as boas</p>
@@ -117,11 +119,12 @@ export default function Home() {
                             </div>
 
                             <div className="flex flex-col gap-4">
-                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 hover:bg-opacity-20 cursor-pointer  transition duration-500 ease-out w-full rounded">
                                     <div className="w-20 rounded bg-zinc-950" />
                                     <p className="font-bold text-sm py-6">Balling</p>
                                 </div>
-                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 hover:bg-opacity-20 w-full cursor-pointer  transition duration-500 ease-out rounded">
                                     <div className="w-20 rounded bg-zinc-950" />
 
                                     <p className="font-bold text-sm py-6">brazil vibes</p>
@@ -129,11 +132,11 @@ export default function Home() {
                             </div>
 
                             <div className="flex flex-col gap-4">
-                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 hover:bg-opacity-20 w-full cursor-pointer  transition duration-500 ease-out rounded">
                                     <div className="w-20 rounded bg-zinc-950" />
                                     <p className="font-bold text-sm py-6">Brasilian Classics</p>
                                 </div>
-                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 w-full rounded">
+                                <div className="flex item-center gap-4  bg-teal-100 bg-opacity-10 hover:bg-opacity-20 w-full cursor-pointer  transition duration-500 ease-out rounded">
                                     <div className="w-20 rounded bg-zinc-950" />
 
                                     <p className="font-bold text-sm py-6">Summer eletrohits 7</p>
