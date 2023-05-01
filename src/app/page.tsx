@@ -1,6 +1,4 @@
 'use client'
-
-import React from 'react'
 import { Sidebar } from './components/Sidebar'
 import { Player } from './components/Player'
 import { PlaylistCard } from './components/PlaylistCard'
@@ -8,10 +6,6 @@ import { Header } from './components/Header'
 import { Card } from './components/Card'
 
 export default function Home() {
-    const [isHovering, setHoveringState] = React.useState(false)
-    const onMouseOver = () => setHoveringState(true)
-    const onMouseOut = () => setHoveringState(false)
-
     return (
         // CONTAINER
         <div className="h-screen flex flex-col">
