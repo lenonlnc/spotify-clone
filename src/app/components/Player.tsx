@@ -9,7 +9,7 @@ export function Player() {
                     <div className="flex items-center gap-4">
                         <i className="fa-solid fa-shuffle text-lg text-zinc-300 hover:text-zinc-50" />
                         <i className="fa-solid fa-forward-step fa-flip-horizontal text-zinc-300 hover:text-zinc-50" />
-                        <div className="bg-zinc-50 justify-items-center flex items-center justify-center w-10 h-10 hover:w-11 hover:h-11 rounded-full">
+                        <div className="bg-zinc-50 justify-items-center flex items-center justify-center w-10 h-10  rounded-full">
                             <i className="fa-solid fa-sharp fa-pause text-zinc-950 text-xl" />
                         </div>
                         <i className="fa-solid fa-forward-step text-zinc-300 hover:text-zinc-50" />
@@ -29,10 +29,10 @@ export function Player() {
 
             <div className="col-end-7 p-6">
                 <div className="flex items-center justify-end gap-4 px-4">
-                    <Mic2 />
-                    <List />
-                    <MonitorSpeaker />
-                    <Volume2 />
+                    <Mic2 className="text-zinc-300 hover:text-zinc-50 transition duration-150 cursor-pointer ease-out" />
+                    <List className="text-zinc-300 hover:text-zinc-50 transition duration-150 cursor-pointer ease-out" />
+                    <MonitorSpeaker className="text-zinc-300 hover:text-zinc-50 transition duration-150 cursor-pointer ease-out" />
+                    <Volume2 className="text-zinc-300 hover:text-zinc-50 transition duration-150 cursor-pointer ease-out" />
                     <div className="h-1 bg-zinc-50 w-20 rounded" />
                 </div>
             </div>
