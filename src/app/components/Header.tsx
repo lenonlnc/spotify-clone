@@ -8,8 +8,8 @@ export function Header() {
                     <div className="p-1 rounded-full bg-zinc-900 w-10 h-10 flex items-center justify-center">
                         <ChevronLeft />
                     </div>
-                    <div className="p-1 rounded-full bg-zinc-900 w-10 h-10 flex items-center justify-center">
-                        <ChevronRight />
+                    <div className="p-1 rounded-full bg-zinc-700 w-10 h-10 flex items-center justify-center">
+                        <ChevronRight className="text-zinc-400" />
                     </div>
                 </div>
             </div>

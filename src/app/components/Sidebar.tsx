@@ -3,7 +3,7 @@ import { Home as House, Search, Library, Plus } from 'lucide-react'
 
 export function Sidebar() {
     return (
-        <div className="w-64 bg-zinc-950">
+        <div className="w-64 bg-black">
             {/* OPTIONS */}
             <div className="flex flex-col gap-8 py-12 px-2">
                 {/* OPTIOS */}
@@ -59,7 +59,7 @@ export function Sidebar() {
                             <div className="h-6 w-6 flex justify-center items-center group-hover:bg-green-800 transition duration-150 ease-in bg-green-900 px-1 rounded">
                                 <i className="fa-solid fa-bookmark group-hover:text-green-500 transition duration-150 ease-in text-green-600" />
                             </div>
-                            <li className="text-zinc group-hover:text-zinc-50 transition duration-150 ease-in">Your episodes</li>
+                            <li className="text-zinc-300 group-hover:text-zinc-50 transition duration-150 ease-in">Your episodes</li>
                         </div>
                     </ul>
                 </div>
